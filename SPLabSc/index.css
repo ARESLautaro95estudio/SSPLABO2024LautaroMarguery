@@ -1,0 +1,94 @@
+*
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.form-ABM
+{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    align-items: flex-end;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(150, 84, 84);
+    background-color: rgb(212, 199, 112); 
+}
+button
+{
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+input
+{
+    background-color: aqua;
+}
+table{
+    border: 1px solid black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
+tbody
+{
+    background-color: rgb(226, 200, 134);
+}
+thead
+{
+    background-color: rgb(255, 193, 86);
+}
+#div-chechks
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+button:hover {background: #0b7dda; color: rgb(255, 255, 255);}
+
+#btn-ABM-aceptar {background-color: white; border: 2px solid #007bff;} 
+#btn-ABM-aceptar:hover {background: #0b7dda; color: rgb(255, 255, 255);}
+
+#boton-eliminar{background-color: rgb(255, 255, 255); border: 2px solid #ff0000;}
+#boton-eliminar:hover {background:  #ff0000;; color: rgb(255, 255, 255);}
+
+#boton-modificar{background-color: rgb(255, 255, 255); border: 2px solid #a913c4;}
+#boton-modificar:hover {background:  #a913c4;; color: rgb(255, 255, 255);}
+
+
+
+label{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: url("wood.jpg");
+    opacity: 0.8;
+    background-size: cover;
+}
+input checkbox
+{
+    
+}
+#sip img{
+    
+}
